@@ -1,4 +1,11 @@
-/*  */
+
+/*==========================
+     Banner Section 
+==========================*/
+.home {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
 .social-links {
 	position: absolute;
 	right: 65px;
@@ -6,4 +13,20 @@
 }
 button {
 	color: azure;
+}
+
+/*=========================
+      ABOUT SECTION 
+=========================*/
+.about {
+	padding: 170px;
+}
+.about button {
+	background-image: linear-gradient(to right, #572FEE , #528EFF);
+}
+.about button:hover {
+	background-image: linear-gradient(to right, #528EFF, #572FEE);
+}
+.about-2 {
+	padding: 170px;
 }
